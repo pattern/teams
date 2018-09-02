@@ -1,0 +1,214 @@
+
+body {
+    margin: 0;
+    color: #222;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.body {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    user-select: none;
+    background-color: #f0f3f8;
+    padding: 4rem 3rem 2rem 3rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.header h1 {
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+
+.header-inner {
+    width: 1200px;
+    height: 210px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.team-card {
+    box-shadow: 0 2px 7px rgba(0,0,0,0.2);
+    width: 95px;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    height: 85px;
+    margin: 10px;
+    padding-top: 5px;
+    background: #fff;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-top: 8px solid transparent;
+}
+
+.team-card .team-icon {
+    height: 40px;
+}
+
+.team-card .team-name {
+    margin-top: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.team-card .team-icon + .team-name {
+    margin-top: 0;
+}
+
+.team-card .team-abbr {
+    font-size: 12px;
+    color: #ccc;
+}
+
+.team-card.selected {
+    border-top: 8px solid #F37021;
+}
+
+.face-card {
+    border-radius: 140px;
+    height: 70px;
+    width: 70px;
+}
+
+.person-card {
+    cursor: pointer;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    font-weight: bold;
+    margin-right: 10px;
+    display: inline-block;
+    background-color: #ccc;
+}
+
+.person-card .initials {
+    text-align: center;
+    padding-top: 13px;
+}
+
+.modal .person-card {
+    cursor: default;
+    border-radius: 140px;
+    height: 70px;
+    width: 70px;
+    font-size: 28px;
+    background-color: #fff;
+    color: #67C6C1;
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+
+.modal .person-card .initials {
+    padding-top: 15px;
+    padding-left: 2px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba( 0, 0, 0, 0.25 );
+}
+
+.modal.show {
+    display: block;
+}
+
+.modal-content {
+    clear: both;
+    border-radius: 8px;
+    width: 900px;
+    margin: auto;
+    height: 450px;
+    background-color: #67C6C1;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.35);
+}
+
+.modal-content .left {
+    float: left;
+    text-align: center;
+    padding: 15px;
+    width: 240px;
+    color: #fff;
+    padding-top: 80px;
+}
+
+.modal-content .left .name {
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.modal-content .left .role {
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+.modal-content .right {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    float: left;
+    overflow: scroll;
+    width: 630px;
+    height: 100%;
+    background-color: #fff;
+}
+
+.modal-content .right .close-icon {
+    height: 15px;
+    position: fixed;
+    right: 290px;
+    top: 120px;
+    color: #aaa;
+    cursor: pointer;
+}
+
+.modal-content .right .text {
+    padding: 0 50px;
+}
+
+.modal-content .right .text-spacer {
+    height: 30px;
+}
+
+.color-a { background-color: #93c5e4; }
+.color-b { background-color: #a8c77b; }
+.color-c { background-color: #6495b6; }
+.color-d { background-color: #e06924; }
+.color-e { background-color: #5ccec7; }
+.color-f { background-color: #bdabdc; }
+.color-g { background-color: #eb92b6; }
+.color-h { background-color: #cdfbaa; }
+.color-i { background-color: #f2b32a; }
+.color-j { background-color: #fc6b6d; }
+.color-k { background-color: #b1d0fc; }
+.color-l { background-color: #de96fd; }
+.color-m { background-color: #fc7f4f; }
+.color-n { background-color: #fab871; }
+.color-o { background-color: #b694fc; }
+.color-p { background-color: #e9cf47; }
+.color-q { background-color: #b27d1b; }
+.color-r { background-color: #e17f90; }
+.color-s { background-color: #e2cc99; }
+.color-t { background-color: #bba493; }
+.color-u { background-color: #aafbdc; }
+.color-v { background-color: #b1d0fc; }
+.color-w { background-color: #97b240; }
+.color-x { background-color: #b27d1b; }
+.color-y { background-color: #fab871; }
+.color-z { background-color: #de96fd; }
